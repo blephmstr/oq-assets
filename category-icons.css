@@ -1,14 +1,9 @@
 /* ============================================================
-   CATEGORY ICONS — base64 SVGs, transparent bg, green artwork
+   CATEGORY ICONS — href-based selectors, green artwork
    ============================================================ */
 
 /* cataract */
-.entry-taxonomies a.category-link-lens::before,
-.entry-taxonomies a.category-link-cataract::before,
-.entry-taxonomies a.category-link-cataract-and-lens::before,
-a.kb-posts-item-category-link.category-link-lens::before,
-a.kb-posts-item-category-link.category-link-cataract::before,
-a.kb-posts-item-category-link.category-link-cataract-and-lens::before {
+.entry-taxonomies a[href*="/category/cataract-and-lens/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -21,12 +16,7 @@ a.kb-posts-item-category-link.category-link-cataract-and-lens::before {
 }
 
 /* cornea */
-.entry-taxonomies a.category-link-cornea::before,
-.entry-taxonomies a.category-link-cornea-external::before,
-.entry-taxonomies a.category-link-cornea-and-refractive-surgery::before,
-a.kb-posts-item-category-link.category-link-cornea::before,
-a.kb-posts-item-category-link.category-link-cornea-external::before,
-a.kb-posts-item-category-link.category-link-cornea-and-refractive-surgery::before {
+.entry-taxonomies a[href*="/category/cornea-and-refractive-surgery/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -39,8 +29,7 @@ a.kb-posts-item-category-link.category-link-cornea-and-refractive-surgery::befor
 }
 
 /* general */
-.entry-taxonomies a.category-link-general-ophthalmology::before,
-a.kb-posts-item-category-link.category-link-general-ophthalmology::before {
+.entry-taxonomies a[href*="/category/general-ophthalmology/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -53,8 +42,7 @@ a.kb-posts-item-category-link.category-link-general-ophthalmology::before {
 }
 
 /* glaucoma */
-.entry-taxonomies a.category-link-glaucoma::before,
-a.kb-posts-item-category-link.category-link-glaucoma::before {
+.entry-taxonomies a[href*="/category/glaucoma/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -67,10 +55,7 @@ a.kb-posts-item-category-link.category-link-glaucoma::before {
 }
 
 /* neuro */
-.entry-taxonomies a.category-link-neuro-ophthalmology::before,
-.entry-taxonomies a.category-link-neuro::before,
-a.kb-posts-item-category-link.category-link-neuro-ophthalmology::before,
-a.kb-posts-item-category-link.category-link-neuro::before {
+.entry-taxonomies a[href*="/category/neuro-ophthalmology/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -83,10 +68,7 @@ a.kb-posts-item-category-link.category-link-neuro::before {
 }
 
 /* oculoplastics */
-.entry-taxonomies a.category-link-eyelid-orbit::before,
-.entry-taxonomies a.category-link-oculoplastics::before,
-a.kb-posts-item-category-link.category-link-eyelid-orbit::before,
-a.kb-posts-item-category-link.category-link-oculoplastics::before {
+.entry-taxonomies a[href*="/category/oculoplastics/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -99,10 +81,7 @@ a.kb-posts-item-category-link.category-link-oculoplastics::before {
 }
 
 /* peds */
-.entry-taxonomies a.category-link-pediatric::before,
-.entry-taxonomies a.category-link-pediatric-ophthalmology::before,
-a.kb-posts-item-category-link.category-link-pediatric::before,
-a.kb-posts-item-category-link.category-link-pediatric-ophthalmology::before {
+.entry-taxonomies a[href*="/category/pediatric-ophthalmology/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -115,8 +94,7 @@ a.kb-posts-item-category-link.category-link-pediatric-ophthalmology::before {
 }
 
 /* retina */
-.entry-taxonomies a.category-link-retina::before,
-a.kb-posts-item-category-link.category-link-retina::before {
+.entry-taxonomies a[href*="/category/retina/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
