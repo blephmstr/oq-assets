@@ -15,18 +15,18 @@
 
 /* ── Variables ── */
 :root {
-  --retina-blue:   var(--sub-accent);
-  --retina-dark:   var(--sub-dark);
-  --retina-soft:   var(--sub-soft);
-  --retina-mid:    var(--sub-mid);
-  --green:         var(--sub-accent);
+  --retina-blue:   #3e6950;
+  --retina-dark:   #2d4e3c;
+  --retina-soft:   #eaf4ee;
+  --retina-mid:    #b8d9c4;
+  --green:         #3e6950;
   --text:          #1a2e24;
   --muted:         #5a7060;
   --border:        #dbe7e1;
   --bg:            #f8fbf9;
   --card:          #ffffff;
-  --shadow-sm:     0 2px 8px rgba(var(--sub-accent-rgb),0.07);
-  --shadow-md:     0 6px 24px rgba(var(--sub-accent-rgb),0.13);
+  --shadow-sm:     0 2px 8px rgba(62,105,80,0.07);
+  --shadow-md:     0 6px 24px rgba(62,105,80,0.13);
   --radius:        14px;
   --font-display:  'Barlow Condensed', sans-serif;
   --font-body:     'Heebo', sans-serif;
