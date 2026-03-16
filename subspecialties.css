@@ -40,14 +40,15 @@
 .qnv-sub__hero {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #1b3a2a 0%, #2d5240 45%, var(--sub-accent) 75%, #4eca7f 100%);
-  border-radius: var(--radius);
-  padding: 36px 40px 32px;
-  margin-bottom: 36px;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 32px;
-  align-items: center;
+  background: linear-gradient(135deg, #1b3a2a 0%, #2d5240 45%, var(--sub-accent) 75%, #4eca7f 100%) !important;
+  border-radius: var(--radius) !important;
+  padding: 40px 44px 36px !important;
+  margin-bottom: 32px !important;
+  display: grid !important;
+  grid-template-columns: 1fr 180px !important;
+  gap: 32px !important;
+  align-items: center !important;
+  min-height: 280px;
 }
 
 .qnv-sub__hero::before {
@@ -472,7 +473,7 @@
 /* ── Two-column layout: posts + sidebar ── */
 .qnv-sub__layout {
   display: grid;
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: 2fr 1fr;
   gap: 32px;
   align-items: start;
 }
@@ -484,12 +485,11 @@
 .qnv-sub__sidebar {
   position: sticky;
   top: 24px;
-  width: 300px;
   min-height: 250px;
 }
 
 .qnv-sub__ad-placeholder {
-  width: 300px;
+  width: 100%;
   min-height: 250px;
   background: var(--sub-soft);
   border: 2px dashed var(--sub-mid);
@@ -568,7 +568,7 @@
 }
 
 /* ── Responsive ── */
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
   .qnv-sub__layout {
     grid-template-columns: 1fr;
   }
