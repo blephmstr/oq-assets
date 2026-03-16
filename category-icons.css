@@ -3,7 +3,8 @@
    ============================================================ */
 
 /* cataract */
-.entry-taxonomies a[href*="/category/cataract-and-lens/"]::before {
+.entry-taxonomies a[href*="/category/cataract-and-lens/"]::before,
+.entry-taxonomies a[href*="/subspecialties/cataract-and-lens/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -16,7 +17,8 @@
 }
 
 /* cornea */
-.entry-taxonomies a[href*="/category/cornea-and-refractive-surgery/"]::before {
+.entry-taxonomies a[href*="/category/cornea-and-refractive-surgery/"]::before,
+.entry-taxonomies a[href*="/subspecialties/cornea-and-refractive-surgery/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -29,7 +31,8 @@
 }
 
 /* general */
-.entry-taxonomies a[href*="/category/general-ophthalmology/"]::before {
+.entry-taxonomies a[href*="/category/general-ophthalmology/"]::before,
+.entry-taxonomies a[href*="/subspecialties/general-ophthalmology/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -42,7 +45,8 @@
 }
 
 /* glaucoma */
-.entry-taxonomies a[href*="/category/glaucoma/"]::before {
+.entry-taxonomies a[href*="/category/glaucoma/"]::before,
+.entry-taxonomies a[href*="/subspecialties/glaucoma/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -55,7 +59,8 @@
 }
 
 /* neuro */
-.entry-taxonomies a[href*="/category/neuro-ophthalmology/"]::before {
+.entry-taxonomies a[href*="/category/neuro-ophthalmology/"]::before,
+.entry-taxonomies a[href*="/subspecialties/neuro-ophthalmology/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -68,7 +73,8 @@
 }
 
 /* oculoplastics */
-.entry-taxonomies a[href*="/category/oculoplastics/"]::before {
+.entry-taxonomies a[href*="/category/oculoplastics/"]::before,
+.entry-taxonomies a[href*="/subspecialties/oculoplastics-and-orbit/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -81,7 +87,8 @@
 }
 
 /* peds */
-.entry-taxonomies a[href*="/category/pediatric-ophthalmology/"]::before {
+.entry-taxonomies a[href*="/category/pediatric-ophthalmology/"]::before,
+.entry-taxonomies a[href*="/subspecialties/pediatric-ophthalmology/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
@@ -94,7 +101,8 @@
 }
 
 /* retina */
-.entry-taxonomies a[href*="/category/retina/"]::before {
+.entry-taxonomies a[href*="/category/retina/"]::before,
+.entry-taxonomies a[href*="/subspecialties/retina/"]::before {
     content: '';
     display: inline-block;
     width: 28px;
