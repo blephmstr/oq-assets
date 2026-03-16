@@ -60,7 +60,7 @@
   pointer-events: none;
 }
 
-.qnv-sub__hero-text { position: relative; z-index: 1; }
+.qnv-sub__hero-text { position: relative; z-index: 1; min-width: 0; }
 
 .qnv-sub__breadcrumb {
   display: inline-flex;
@@ -90,6 +90,10 @@
 }
 
 .qnv-sub__desc {
+  color: rgba(255,255,255,0.78) !important;
+  font-size: 15px !important;
+  line-height: 1.65 !important;
+  max-width: 560px !important;
   font-size: 15px;
   color: rgba(255,255,255,0.78);
   line-height: 1.65;
