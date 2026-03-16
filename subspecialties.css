@@ -443,6 +443,25 @@
 }
 
 /* ── Responsive ── */
+
+/* Icon via category CSS class */
+.qnv-sub__icon-img {
+  width: 100%;
+  height: 100%;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  filter: brightness(0) invert(1);
+}
+
+/* Hero grid fix */
+.qnv-sub__hero {
+  display: grid !important;
+  grid-template-columns: 1fr 140px !important;
+  gap: 32px !important;
+  align-items: center !important;
+}
+
 @media (max-width: 700px) {
   .qnv-sub__hero {
     grid-template-columns: 1fr;
